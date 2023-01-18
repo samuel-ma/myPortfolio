@@ -3,7 +3,7 @@ import logo from "../assets/logo3.png"
 
 function Nav() {
   return (
-    <nav className="nav-main">
+    <nav className='nav-main'>
         <section className="logodiv">
           <img className="logo" src={logo} alt="logo" />
           <p>Samuel ma.</p>
