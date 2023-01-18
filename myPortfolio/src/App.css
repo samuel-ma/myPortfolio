@@ -1,0 +1,99 @@
+
+
+:root {
+  max-width: 1280px;
+  --blue: #65C7FE;
+  --black: #030A1F;
+  --grey: grey;
+
+}
+
+body{
+  padding: 50px;
+  margin: 0;
+  background-color: var(--black);
+  color: white;
+  font-family: "Inter";
+}
+
+/* navigation css */
+.nav-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlinks{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.two{
+  color: var(--grey);
+}
+
+.logodiv{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+/* Home css styles */
+#home{
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.enjoy{
+  font-size: 70px;
+  margin: 0;
+}
+
+.pblue{
+  color: var(--blue);
+}
+
+.more{
+  background-color: var(--black);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.projects{
+  margin-top: 150px;
+}
+
+.fav{
+  margin: 8px;
+  font-size: 30px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line{
+  width: 50%;
+  height: 7px;
+  background-image: linear-gradient(260deg,#af002d 41.07%,#319197 76.05%);
+}
+
